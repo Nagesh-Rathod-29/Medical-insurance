@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Insurance Charges Prediction</title>
+</head>
+<body style="background-color: lightcoral; font-size: x-large;">
+    <h1 style="text-align: center;background-color: aqua;">Medical Insurance Charges Prediction</h1>
+    <form action="/predict" method="get">
+        
+        <h3>please fill the below details</h3>
+
+        <label>How old you are ?</label>
+        <input type="text" name="age" placeholder="Please enter your age ex.25,52,8" size="30px">
+        </select>
+        <br>
+        <br>
+
+        <label>Enter Body Mass Index ?</label>
+        <input type="text" name="bmi" placeholder="enter your bmi">
+        <br>
+        <br>
+
+        <label>How many childrens do you have?</label>
+        <input type="text" name="children" placeholder="Enter 0 if not applicable">
+        <br>
+        <br>
+
+        <label>Are you a smoker?</label>
+        <select name="smoker">
+            <option value="yes">yes</option>
+            <option value="no">no</option>
+        </select>
+        <br>
+        <br>
+
+        <label>Please select the region of your place?</label>
+        <select name="region">
+            <option value="northeast">northeast</option>
+            <option value="northwest">northwest</option>
+            <option value="southeast">southeast</option>
+            <option value="southwest">southwest</option>
+        </select>
+        <br>
+        <br>
+        <br>
+
+        <input type="submit" name="SUBMIT">
+        <br>
+        <br>
+
+        <h1>Insurace Chrages Will be <i style="background-color:whitesmoke;">{{predict}}/-</i> Rs only </h1>
+
+    </form>
+</body>
+</html>
