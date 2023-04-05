@@ -1,7 +1,7 @@
 #  Medical Insurance Charges Prediction
 
 This project contains following data and with the help of ML algorithms we need to 
-predict the medical insurance charges of a person.  
+predict the medical insurance charges for a person.  
 
 #### Features in dataset
 
