@@ -1,0 +1,1 @@
+{"feature": ["age", "bmi", "children", "smoker", "region_northeast", "region_northwest", "region_southeast", "region_southwest"], "smoker": {"no": 1, "yes": 0}}
